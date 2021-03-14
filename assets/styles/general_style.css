@@ -1,0 +1,102 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div,
+button {
+    font-style: normal;
+}
+
+#block1,
+#block2,
+#block3,
+#block4,
+#block6,
+#block7,
+#block8,
+#block9,
+#block10,
+footer {
+    border-top: 1px solid #d8e3fe;
+}
+
+h1,
+h2,
+button,
+#block5 p,
+#credit {
+    font-family: "Quicksand", "Arial", sans-serif;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 14px;
+    font-family: "Open Sans", "Arial", sans-serif;
+    color: #4074f8;
+}
+
+h4 {
+    font-weight: 500;
+    font-size: 10px;
+    font-family: "Roboto", "Arial", sans-serif;
+    color: #3d4f9f;
+}
+
+#block1 p,
+#block3 p,
+#article p,
+#opinion p,
+#opinion2 p,
+#block8 p,
+#block9 p,
+#block10 p {
+    font-weight: normal;
+    font-family: "Roboto", "Arial", sans-serif;
+    letter-spacing: 0.03em;
+}
+
+#block1 p,
+#block3 p {
+    font-size: 15px;
+}
+
+#block1 p,
+#block3 p,
+#article p {
+    color: #8d96bd;
+}
+
+#block4 p,
+#text-7 p {
+    font-weight: 600;
+    font-family: "Open Sans", "Arial", sans-serif;
+    color: #adb3cb;
+}
+
+button {
+    height: 43px;
+    font-weight: 700;
+    font-size: 13px;
+    border: none;
+    border-radius: 2px;
+}
+
+.start {
+    color: #3a79ff;
+    background-color: #d2e1ff;
+}
+
+.start:focus {
+    background: #b0d0fa;
+    box-shadow: 0 0 10px #b0d0fab9;
+}
+
+.weight {
+    font-weight: 500;
+}
+
+hr {
+    margin: 0;
+}

@@ -1,0 +1,100 @@
+header {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 1206px;
+    align-items: center;
+}
+
+.logo {
+    margin-left: 117px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 73px;
+    justify-content: space-between;
+    width: 427px;
+}
+
+.menu-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: "Quicksand", "Arial", sans-serif;
+    color: #697ca6;
+    text-decoration: none;
+}
+
+#home {
+    color: #5e81fe;
+}
+
+.menu-text:hover {
+    text-decoration: underline;
+}
+
+.menu-text:visited {
+    color: #8969a6;
+}
+
+.social-net {
+    display: flex;
+    width: 162px;
+    justify-content: space-between;
+    margin-left: 361px;
+    height: 17px;
+    align-items: center;
+}
+
+.start {
+    display: flex;
+    margin-left: 44px;
+    width: 113px;
+    justify-content: center;
+    align-items: center;
+}
+
+#block1 {
+    display: flex;
+    width: 100%;
+    height: 570px;
+    flex-direction: column;
+    align-items: center;
+
+    background-image: url(images/background_1/krug.svg), url(images/background_1/krug.svg), url(images/background_1/krug.svg), url(images/background_1/krug.svg), url(images/background_1/count.svg), url(images/background_1/dial.svg), url(images/background_1/line1.svg), url(images/background_1/line2.svg), url(images/background_1/line3.svg), url(images/background_1/line4.svg), url(images/background_1/tochka1.svg), url(images/background_1/tochka23.svg), url(images/background_1/tochka23.svg), url(images/background_1/cloud1.svg), url(images/background_1/cloud2.svg), url(images/background_1/cloud31.svg), url(images/background_1/cloud32.svg), url(images/background_1/cloud33.svg), url(images/background_1/cloud34.svg), url(images/background_1/cloud41.svg), url(images/background_1/cloud42.svg), url(images/background_1/cloud43.svg), url(images/background_1/cloud51.svg), url(images/background_1/cloud52.svg), url(images/background_1/cloud53.svg), url(images/background_1/vector.svg), url(images/background_1/gradient.svg), url(images/background_1/cloud6.svg), linear-gradient(180deg, #f4f7ff 0%, #f1f5ff 100%);
+    background-repeat: no-repeat;
+    background-position: 100px 517px, 508px 487px, 917px 346px, 1325px 232px, 499px 421px, 470px 405px, 107px 367px, 515px 483px, 924px 305px, 1332px 105px, 696px 534px, 716px 534px, 736px 534px, 0.5px 176px, 253px 92px, 261.27px 396.18px, 294.37px 404.45px, 253px 398.48px, 307.22px 386px, 1257px 86px, 1224px 53px, 1208px 37px, 1085px 477.19px, 1171px 494.46px, 1158px 465px, 0 223px, 0 223px, 1384px 407px, 0 0;
+}
+
+h1 {
+    margin-top: 16px;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 48px;
+    color: #3d4f9f;
+}
+
+#block1 p {
+    margin-top: 28px;
+    margin-bottom: 0;
+    width: 502px;
+    text-align: center;
+    line-height: 29px;
+}
+
+#block1 h4 {
+    margin-top: 92px;
+    margin-bottom: 0;
+}
+
+#block1 object {
+    display: flex;
+    margin-top: 20px;
+}

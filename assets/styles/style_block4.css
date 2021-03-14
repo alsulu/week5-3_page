@@ -1,0 +1,92 @@
+#block4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 885px;
+    background-color: white;
+    background-image: url(images/background_4/first_cloud1.svg), url(images/background_4/first_cloud2.svg), url(images/background_4/second_cloud1.svg), url(images/background_4/second_cloud2.svg), url(images/background_4/second_cloud3.svg), url(images/background_4/second_cloud4.svg), url(images/background_4/third_cloud1.svg), url(images/background_4/third_cloud2.svg), url(images/background_4/third_cloud3.svg), url(images/background_4/third_cloud4.svg), url(images/krug.svg), url(images/krug.svg), url(images/krug.svg), url(images/krug.svg);
+    background-repeat: no-repeat;
+    background-position: 225px 143.22px, 258.39px 141px, 1223.97px 219px, 1275.84px 239px, 1211px 222.61px, 1296px 203px, 126px 650px, 209px 656px, 155px 643px, 162px 634px, 376px 325px, 583px 325px, 790px 325px, 997px 325px;
+}
+
+#block4 h2 {
+    margin: 20px 0 0 0;
+    font-weight: 500;
+    font-size: 24px;
+    color: #3d4f9f;
+}
+
+#block4 h4 {
+    margin: 171px 0 0 0;
+}
+
+#columns-4 {
+    display: flex;
+    flex-direction: row;
+    margin: 92px 0 92px 0;
+    width: 761px;
+    justify-content: space-between;
+    height: 254px;
+    align-items: center;
+}
+
+#column1,
+#column2,
+#column3,
+#column4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 140px;
+}
+
+.text {
+    margin: 25px 0 0 0;
+    height: 102px;
+    width: 140px;
+    line-height: 19px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.name {
+    margin: 59px 0 0 0;
+}
+
+.icon {
+    display: flex;
+    margin-top: 26px;
+}
+
+#buttons-4 {
+    display: flex;
+    flex-direction: row;
+    width: 337px;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons-4 img,
+#buttons-4 p,
+#buttons-4 .start {
+    margin-left: 16px;
+}
+
+#buttons-4 p {
+    font-size: 11px;
+}
+
+#block4 button {
+    width: 113px;
+}
+
+#read-more {
+    color: #d43f3f;
+    background-color: #ffd7d7;
+}
+
+#read-more:focus {
+    background: #ffbcb7;
+    box-shadow: 0 0 10px #ffbcb7b9;
+}
